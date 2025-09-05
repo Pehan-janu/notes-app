@@ -17,6 +17,6 @@ const noteSchema = new mongoose.Schema(
   {timestamps:true} //it will automatically add createdAt and updatedAt fields
 );
 
-const Note = mangoose.model("Note", noteSchema);
+const Note = mongoose.model("Note", noteSchema);
 
 export default Note;
