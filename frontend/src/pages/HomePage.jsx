@@ -2,10 +2,10 @@ import React from 'react'
 
 const HomePage = () => {
   return (
-    <div>
-      HomePage
+    <div className="min-h-screen">
+      <Navbar />
     </div>
-  )
-}
+  );
+};
 
 export default HomePage
