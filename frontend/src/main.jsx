@@ -4,6 +4,7 @@ import './index.css';
 import App from './App.jsx';
 import {BrowserRouter} from 'react-router';
 import {Toaster} from 'react-hot-toast';
+import NavBar from './components/NavBar.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
